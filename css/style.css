@@ -1,1 +1,79 @@
-/* TODO: Make it awesome */
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+#cart tbody td p {
+  display: inline;
+  text-align: center;
+}
+#cart tbody td {
+  text-align: center;
+}
+header {
+  border: thin solid black;
+  padding: 20px 20px 5px 20px;
+  background-color: #485d64;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #dff3f3;
+}
+h1:not(.card header h1) {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Michroma', sans-serif;
+  color: white;
+  padding-bottom: 5px;
+}
+.card header h1 {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Michroma', sans-serif;
+  color: white;
+  padding-left: 40px;
+}
+footer {
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #485d64;
+  height: 50px;
+  border: thin solid black;
+  color: #dff3f3;
+}
+nav {
+  /* display: flex;
+  flex-direction: row; */
+  width: 75px;
+  /* background-color: #0d68ad; */
+  align-items: center;
+  padding-top: 20px;
+  z-index: 10;
+  /* border-right: 2px solid black; */
+}
+nav a {
+  color: #f1f9ff;
+  font-size: 16px;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+nav ul {
+  display: flex;
+}
+nav li {
+  padding: 5px;
+}
+nav li:hover {
+  background-color: #2d3b3f;
+  color: rgb(5, 142, 142);
+}
+nav li a:hover {
+  color: rgb(5, 142, 142);
+}
+#itemCount {
+  padding-left: 3px;
+  font-size: 12px;
+}
+.copy ol {
+  font-size: 20px;
+}
