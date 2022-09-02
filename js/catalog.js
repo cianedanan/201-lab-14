@@ -76,7 +76,7 @@ function updateCartPreview() {
   divEl.appendChild(ulEl);
   for (let i = 0; i < allItems.length; i++) {
     let liEl = document.createElement('li');
-    liEl.textContent = `${allItems[i].product} - qty: ${allItems[i].quantity}`;
+    liEl.textContent = `${allItems[i].product} - Qty: ${allItems[i].quantity}`;
     ulEl.appendChild(liEl);
   }
 }

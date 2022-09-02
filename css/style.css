@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
 #cart tbody td p {
   display: inline;
   text-align: center;
@@ -26,7 +28,8 @@ h1:not(.card header h1) {
   font-weight: bold;
   font-family: 'Michroma', sans-serif;
   color: white;
-  padding-left: 40px;
+  padding-bottom: 10px;
+  text-align: center;
 }
 footer {
   position: sticky;
@@ -53,7 +56,7 @@ nav {
 }
 nav a {
   color: #f1f9ff;
-  font-size: 16px;
+  font-size: 20px;
   text-decoration: none;
   margin-bottom: 10px;
 }
@@ -63,17 +66,131 @@ nav ul {
 nav li {
   padding: 5px;
 }
+
 nav li:hover {
-  background-color: #2d3b3f;
   color: rgb(5, 142, 142);
 }
 nav li a:hover {
   color: rgb(5, 142, 142);
 }
 #itemCount {
+  margin: 5px;
   padding-left: 3px;
-  font-size: 12px;
+  font-size: 20px;
+
 }
 .copy ol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   font-size: 20px;
+  margin: 15px 0 15px 0;
 }
+
+.copy{
+  font-family: Quicksand;
+}
+
+.col-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+legend{
+  font-size: 45px;
+  font-weight: bold;
+  
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+fieldset{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  font-family: Quicksand;
+  background-color: #485d64;
+  width: 550px;
+  height: 100px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+#cartContents{
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 15px;
+  width: 400px;
+  font-size: 40px;
+  font-family: Quicksand;
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  text-align: right;
+}
+
+section:nth-of-type(2) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#cart-container{
+  display: flex;
+  justify-content: center;
+}
+
+p:hover{
+cursor: pointer;
+}
+
+span{
+  color:white;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+
+}
+
+table{
+  font-family: 'Quicksand', sans-serif;;
+  text-align: center;
+  border-collapse: collapse;
+  border-radius: 20px;
+  margin: 15px 0;
+  font-size: 0.9em;
+  min-height: 400px;
+  width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+
+th{
+  text-align: left;
+  font-weight: bold;
+  color: #f0f0f0;
+  background-color: #485d64;
+  padding:15px;
+  margin: 5px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+td{
+  height: 40px;
+  width: 50px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+input{
+  margin-right: 5px;
+}
+

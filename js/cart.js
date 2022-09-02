@@ -35,10 +35,10 @@ function showCart() {
     pEl.id = allItems[i].product;
     tdEl.appendChild(pEl);
     tdEl = document.createElement('td');
-    tdEl.textContent = allItems[i].product;
+    tdEl.textContent = allItems[i].quantity;
     trEl.appendChild(tdEl);
     tdEl = document.createElement('td');
-    tdEl.textContent = allItems[i].quantity;
+    tdEl.textContent = allItems[i].product;
     trEl.appendChild(tdEl);
   }
 }
